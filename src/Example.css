@@ -1,0 +1,20 @@
+.example {
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border 0.2s ease-in-out;
+  overflow: scroll;
+}
+
+.example:hover {
+  border-color: #337ab7;
+}
+
+.example__label {
+  text-align: center;
+  font: 16px/1.5 Helvetica, Arial;
+}
